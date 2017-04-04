@@ -1,0 +1,21 @@
+.row{
+  text-align: center;
+}
+
+.dot{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-color: black;
+  border-radius: 100%;
+  margin: 2rem;
+}
+.full{
+  background-color: red;
+  margin: 1.5rem;
+  width: 25px;
+  height: 25px;
+}
+.higthlight{
+  box-shadow: 0 0 5px 3px #dbd800;
+}
