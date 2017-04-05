@@ -1,3 +1,35 @@
+body{
+  background-color: #55a;
+  }
+
+  h1{
+    text-align: center;
+    color: #180ba7;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Lobster', cursive;
+  }
+  h2{
+    text-align: center;
+    color: #180ba7;
+    font-family: 'Indie Flower', cursive;
+  }
+  .text2:hover {
+color: rgba(0,0,0,0);
+text-shadow: 0 0 20px #FBFE8B;
+}
+.text2 {
+color: #FBFE8B;
+-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+}
+.text:hover {
+text-shadow: 0px 0 15px #fff;
+}
+.text {
+-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+}
+
 .row{
   text-align: center;
 }
@@ -10,12 +42,13 @@
   border-radius: 100%;
   margin: 2rem;
 }
+
 .full{
-  background-color: red;
+  background-color: #3351ee;
   margin: 1.5rem;
   width: 25px;
   height: 25px;
 }
 .higthlight{
-  box-shadow: 0 0 5px 3px #dbd800;
+  box-shadow: 0 0 9px 3px #fff;
 }
